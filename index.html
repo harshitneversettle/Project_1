@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <style>
+        *{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box ;
+    
+    
+}
+
+body{
+    width: 100vw ;
+    height : 120vh ;
+    background-color: #000000c5;
+    background-image : url(../img/pexels-photo-1640777.jpeg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+nav{
+    background: #0000007d;
+    height : 120vh ;
+    margin-top: -17px ;
+    
+}
+
+
+
+.container{
+    width : 50vw ;
+    height : 117vh ;
+    background-color :bisque; 
+    border: 2px solid black ;
+    margin: 1rem ;
+    overflow: hidden;
+    position:relative ;
+    margin-left:28rem ;
+    border-radius: 2rem  ;
+    padding-top : 5px ;
+    padding-left : 5px ;
+    padding-top: 10px ;
+
+}
+
+.header{
+    min-width: 2.5rem ;
+    height: 8rem ;
+    border-bottom: 3px solid black ;
+    display: flex ;
+    justify-content : space-between ;
+    align-items: center;
+    background: rgba(178, 162, 14, 0.749);
+    border-radius : 1.5rem  ;
+    margin : 3px ;
+    box-shadow: 8px 12px 10px black  ;
+    margin-right : 5px ;
+}
+
+.header a{
+    text-decoration: none ;
+    font-family: "Nunito" , sans-serif ;
+    font-weight: 900 ;
+    color: white ;
+    
+}
+
+.header .contacts{
+    font-size: 1.5rem ;
+    display: flex ;
+    gap: 1.5rem ;
+    text-align: center;
+}
+
+.header .name {
+    font-size: 3.2rem ;
+    color: black ;
+    text-shadow: 4px 4px 5px wheat ;
+}
+
+.header a:hover{
+    color : rgba(220, 20, 60, 0.671) ;
+    font-size: 1.7rem ;
+}
+
+
+.box1{
+    width: 800px ;
+    height: 400px ;
+    background: rgba(28, 212, 150, 0.539);
+    margin-top: 3rem;
+    margin-left : 4rem ;
+    border-radius: 2rem ;
+    border: 2px solid black ;
+    display: flex ;
+    
+}
+
+footer h1{
+    min-width: 3rem ;
+    margin-top: 4rem ;
+    border: 2px solid black ;
+    text-align: center ;
+    background: rgba(178, 162, 14, 0.749);
+    font-size: 3rem ;
+    border-radius : 1.5rem ;
+    margin-right : 2px ;
+    box-shadow: 8px 12px 10px black  ;
+}
+
+
+.content1{
+    width : 380px ;
+    height : 350px ;
+    background-color:rgba(186, 108, 186, 0.703) ;
+    margin: 1.5rem ;
+    border-radius: 10px ;
+}
+
+
+
+li{
+    list-style-type: none;
+    font-size: 1.3rem ;
+    font-family: "Nunito" , sans-serif ;
+    font-weight: 500 ;
+}
+
+.ingredient1 ul {
+    margin-top: 4px ;
+    margin-left : 7rem ;
+    line-height: 2rem ;
+
+}
+
+.ingredient1 h1{
+    font-size: 2rem  ;
+    margin-left : 6px ;
+    font-family: "Roboto" , sans-serif ;
+}
+
+.content1 h2{
+    margin-top: 8px ;
+    margin-left : 6px ;
+}
+
+.content1 h3{
+    margin-top: 15px ;
+    margin-left: 4rem  ;
+}
+
+.content1 h3 a{
+    text-decoration: none;
+}
+
+
+.content1 h3 a:hover{
+    color: red ;
+}
+
+
+.image1 {
+    margin: 1.5rem ;
+    transition-duration: 0.2s ;
+    /* transition-property: all; */
+    transition-timing-function: linear;
+    
+}
+
+.image1:hover{
+    transform : scale(1.08) ;
+}
+
+
+.image1 img{
+    border-radius : 10px ;
+    border: 2px solid black ;
+}
+
+.image1 .caption1{
+    position: absolute ;
+    width: 300px ;
+    height : 350px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(11, 1, 1, 0.591) ;
+    opacity: 0;
+    color: white ;
+    font-size: 1.2rem ;
+    transition-duration: 0.2s ;
+    border-radius: 10px  ;
+}
+
+.image1:hover .caption1{
+    opacity : 1 ;
+    
+}
+
+.caption1 a {
+    text-decoration: none;
+    color: white ;
+}
+
+
+.box2{
+    width: 800px ;
+    height: 400px ;
+    background-color:rgba(28, 212, 150, 0.539) ;
+    margin-top: 4rem;
+    margin-left : 4rem ;
+    border-radius: 2rem ;
+    border: 2px solid black ;
+    display: flex ;
+
+}
+
+.content2{
+    width : 380px ;
+    height : 350px ;
+    background-color: beige;
+    margin: 1.5rem ;
+    border-radius: 10px ;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+    
+
+        <div class="container">
+            <header>
+
+                <div class="header">
+                    <div class="name">
+                        <h1>Titanic's Kitchen </h1>
+                    </div>
+
+                    <div class="contacts">
+                        <a href ="#" target="_blank" >Home</a>
+                        <a href ="#" target="_blank" >Contact us </a>
+                        <a href="#" target="_blank" >About</a>
+                    </div>
+
+                
+
+                </div>
+
+            </header>
+
+            <main>
+                <div class="box1">
+
+                    
+                    <div class="content1">
+                        <div class="ingredient1">
+                            <h1> Ingredients : </h1>
+                            <ul>
+                                <li>Milk powder</li>
+                                <li>All purpose flour</li>
+                                <li>Sugar</li>
+                                <li>Kesar</li>
+                                <li>Cardmon</li>
+                                <li>Food color </li>
+                                <li>Dry fruits</li>
+                            </ul>
+                        </div>
+
+                        <h2>Price :  360rs /-  for 1kg </h2>
+                        <h3> For more information <a href="#" target="_blank"> click here</a></h3>
+                    </div>
+                    
+                    
+
+
+                    
+                    <div class="image1">
+                        <h4 class="caption1"> <a  href="#" target ="_blank"> Click here to Buy</a></h4>
+                        <img src="img/istockphoto-1188000786-612x612.jpg" width ="300px" height="350px" >
+
+                        
+                    </div>
+
+
+
+
+                </div>
+    
+    
+                <div class="box2">
+                    
+
+                    <div class="content1">
+                        <div class="ingredient1">
+                            <h1> Ingredients : </h1>
+                            <ul>
+                                <li>Milk powder</li>
+                                <li>All purpose flour</li>
+                                <li>Sugar</li>
+                                <li>Kesar</li>
+                                <li>Cardmon</li>
+                                <li>Elaichi </li>
+                                <li>Sweetner</li>
+                            </ul>
+                        </div>
+
+                        <h2>Price :  450rs /-  for 1kg </h2>
+                        <h3> For more information <a href="#" target="_blank"> click here</a></h3>
+                    </div>
+
+                    <div class="image1">
+                        <h4 class="caption1"> <a  href="#" target ="_blank"> Click here to Buy</a></h4>
+                        <img src="img/istockphoto-1283543787-612x612.jpg" width ="300px" height="350px" >
+
+                        
+                    </div>
+    
+    
+                </div>
+    
+            </main>
+
+
+            <footer>
+                <div class="footer">
+                    <h1> All Rights are Reserved @ Titanic's Kitchen  </h1>
+                </div>
+            </footer>
+        </div>
+    </nav>
+</body>
+
+</html>
